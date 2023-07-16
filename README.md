@@ -8,6 +8,9 @@ Make your Mastodon Web interface a friendlier place. Tangerine UI features a sof
 * [How to use](#how-to-use)
 * [Things to know](#things-to-know)
 
+## Fork Changes
+This fork adds a custom green variant based on the Material 3 colors from the [Material Theme Builder Tool](https://m3.material.io/theme-builder).
+
 ## Live demo at [nileane.fr](https://nileane.fr)
 * [See the announcement post](https://nileane.fr/@nileane/110691663040709608) on Mastodon
 
