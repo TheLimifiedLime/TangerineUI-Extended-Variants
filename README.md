@@ -14,7 +14,7 @@ This fork adds a custom green variant based on the Material 3 colors from the [M
 ## Live demo at [nileane.fr](https://nileane.fr)
 * [See the announcement post](https://nileane.fr/@nileane/110691663040709608) on Mastodon
 
-## 2 variants
+## 3 variants
 
 ### 🍊 Tangerine
 Default variant for Tangerine UI, featuring a soft orange palette.
@@ -31,12 +31,19 @@ For those of you who like Tangerine UI but want to stick to Mastodon's purple pa
 ![a profile page on Mastodon featuring Tangerine UI's purple variant in dark mode](https://github.com/nileane/TangerineUI-for-Mastodon/assets/914451/2322a5ea-6fce-4acc-9e53-92a9bae72e89)
 ![TangerineUI Mobile in purple](https://github.com/nileane/TangerineUI-for-Mastodon/assets/914451/f2098d06-7c48-4282-b5f6-a62c38155c7b)
 
+### 🍏 Green
+
+A fork specific variant with a green palette
+
+*No Screenshots Available*
+
 
 ## How to use
 **Tangerine UI is contained in a single CSS file.**  
 
 * To use on your instance, simply copy & paste the contents of [`TangerineUI.css`](https://github.com/nileane/TangerineUI-for-Mastodon/blob/main/TangerineUI.css) to the **Custom CSS** field in the administration panel on your Mastodon instance (Navigate to https://*domain*/admin/settings/appearance).
    * 🪻 For the purple variant, copy the contents of [`TangerineUI-purple.css`](https://github.com/nileane/TangerineUI-for-Mastodon/blob/main/TangerineUI-purple.css) instead.
+   * 🍏 For the green variant, copy the contents of [`TangerineUI-green.css`](https://github.com/TheLimifiedLime/TangerineUI-for-Mastodon/blob/main/TangerineUI-green.css) instead.
 
 * If you're not an admin, you can still use Tangerine UI using a userstyle browser extension (ie. [Stylus](https://add0n.com/stylus.html)).
 
