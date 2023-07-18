@@ -35,7 +35,9 @@ For those of you who like Tangerine UI but want to stick to Mastodon's purple pa
 
 A fork specific variant with a green palette
 
-*No Screenshots Available*
+![a profile page on Mastodon featuring Tangerine UI's green variant in light mode](https://raw.githubusercontent.com/TheLimifiedLime/TangerineUI-for-Mastodon/main/assets/profile-light.png)
+![a profile page on Mastodon featuring Tangerine UI's green variant in dark mode](https://raw.githubusercontent.com/TheLimifiedLime/TangerineUI-for-Mastodon/main/assets/profile-dark.png)
+![TangerineUI Mobile in green](https://raw.githubusercontent.com/TheLimifiedLime/TangerineUI-for-Mastodon/main/assets/mobile.png)
 
 
 ## How to use
