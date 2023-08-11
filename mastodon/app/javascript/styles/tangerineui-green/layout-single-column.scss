@@ -1,5 +1,5 @@
 /*  TangerineUI 🍊 for Mastodon ・ Green variant  🍏
-    version: 1.8.7
+    version: 1.8.9
 
     A Tangerine redesign for Mastodon's Web UI.
     https://github.com/nileane/TangerineUI-for-Mastodon/
@@ -319,6 +319,7 @@ body.layout-single-column  {
 }
 .layout-single-column .detailed-status__link i.fa.fa-star:before {
     content: " ";
+    transform: scale(.9);
 }
 /* Replace retweet icon */
 .layout-single-column i.fa.fa-retweet.fa-fw,
@@ -2082,6 +2083,10 @@ body.layout-single-column  {
 .layout-single-column .account__header__account-note textarea:focus {
     background-color: var(--color-accent-bg);
 }
+.layout-single-column .account__header__badges .account-role {
+    color: var(--color-content-fg);
+    border-radius: 8px;
+}
 .layout-single-column .account__header__extra__links a,
 .layout-single-column .account__header__bio .account__header__content,
 .layout-single-column .account__header__bio .account__header__fields dd {
@@ -3437,6 +3442,9 @@ body.layout-single-column  {
 .layout-single-column .about__section__body .prose a:hover {
     color: var(--color-content-fg);
     text-decoration: none;
+}
+.layout-single-column .about__section__body .prose a:hover {
+    text-decoration: underline;
 }
 .layout-single-column .about__section__body .prose small.lang_label {
     margin-left: -2em;
