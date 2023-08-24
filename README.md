@@ -52,6 +52,7 @@ If you're an admin and have installed Tangerine UI on your instance, **feel free
 | [indiepocalypse.social](https://indiepocalypse.social)   | 100+           | an optional theme   | No                      |
 | [bolha.one](https://bolha.one)                           | 20+            | an optional theme   | Yes (Tangerine variant) |
 | [i1.no](https://i1.no)                                   | 15+            | the only theme      | Yes (Purple variant)    |
+| [zeppelin.flights](https://zeppelin.flights)             | 15+            | the only theme      | Yes (Tangerine variant) |
 | [catharsis.cafe](https://catharsis.cafe)                 | 10+            | an optional theme   | Yes (Tangerine variant) |
 | [nileane.fr](https://nileane.fr)                         | 5+             | the only theme      | Yes (Tangerine variant) |
 | [social.nah.re](https://social.nah.re)                   | 5+             | an optional theme   | No                      |
@@ -60,6 +61,7 @@ If you're an admin and have installed Tangerine UI on your instance, **feel free
 | [isfeeling.social](https://isfeeling.social)             | 1+             | the only theme      | Yes (Purple variant)    |
 | [ucn.social](https://ucn.social)                         | 1+             | an optional theme   | Yes (Tangerine variant) |
 | [fedi.cyberwitches.club](https://fedi.cyberwitches.club) | 1+             | the only theme      | Yes (Purple variant)    |
+| [toulouse.social](https://toulouse.social)               | 1+             | the only theme      | Yes (Tangerine variant) |
 
 
 ## Installation for Mastodon admins
@@ -175,12 +177,18 @@ Your users should now be able to select Tangerine UI as a theme in their setting
 ## Installation for regular users
 Even if you are not the admin of your instance, you can still use Tangerine UI with a browser extension.
 
+### Using a UserStyle browser extension
 * Install any browser extension that allows you to inject CSS on a webpage, such as [Stylus](https://add0n.com/stylus.html), or [Live CSS Editor](https://github.com/webextensions/live-css-editor)
 * Copy & paste the contents of [`TangerineUI.css`](https://github.com/nileane/TangerineUI-for-Mastodon/blob/main/TangerineUI.css) to the extension's editor
    * 🪻 For the purple variant, copy the contents of [`TangerineUI-purple.css`](https://github.com/nileane/TangerineUI-for-Mastodon/blob/main/TangerineUI-purple.css) instead.
    * 🍏 For the green variant, copy the contents of [`TangerineUI-green.css`](https://github.com/TheLimifiedLime/TangerineUI-for-Mastodon/blob/main/TangerineUI-green.css) instead.
 * ⚠️ If you are a user on a Glitch-soc instance, you must switch to the vanilla flavour for Tangerine UI to work properly:
    * In your settings, navigate to Flavours → Vanilla Mastodon → select the 'Default' skin.
+ 
+ ### Using a UserScript browser extension
+ If you wish to use a UserScript browser extension, [@Write](https://github.com/Write) has written a ready-to-use UserScript to load Tangerine UI on any Mastodon instance.
+ 
+ * Check out [the TangerineUI-Userscript repository](https://github.com/Write/TangerineUI-Userscript) for instructions.
 
 ## Things to know
 * **Tangerine UI currently only supports Mastodon's single column layout**. The advanced web interface (multiple columns) will not be affected.
