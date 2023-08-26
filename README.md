@@ -39,7 +39,7 @@ Tangerine UI features a bubblier look, a more compact timeline, round avatars, a
 
  
 ## List of instances that use Tangerine UI
-These are the known instances that have enabled Tangerine UI for their users, either as the only theme, or as an optional theme.
+These are known instances that have enabled Tangerine UI for their users, either as the only theme, or as an optional theme.
 
 If you're an admin and have installed Tangerine UI on your instance, **feel free to add yours here** (open a PR, or just [DM me](https://nileane.fr/@nileane))
 
@@ -71,7 +71,7 @@ If you're an admin and have installed Tangerine UI on your instance, **feel free
    * 🪻 For the purple variant, copy the contents of [`TangerineUI-purple.css`](https://github.com/nileane/TangerineUI-for-Mastodon/blob/main/TangerineUI-purple.css) instead.
    * 🍏 For the green variant, copy the contents of [`TangerineUI-green.css`](https://github.com/TheLimifiedLime/TangerineUI-for-Mastodon/blob/main/TangerineUI-green.css) instead.
 
-* ⚠️ **Caution: Using the 'Custom CSS' field to apply Tangerine UI will prevent all users on your instance from being able to choose another theme in their Appearance settings** ([see *Accessibility*](#accessibility)). Please make sure there is a consensus among your users for doing so. If not, see below how to install Tangerine UI as an optional theme for your users.
+⚠️ **Caution: Using the 'Custom CSS' field to apply Tangerine UI will prevent all users on your instance from being able to choose another theme in their Appearance settings** ([see *Accessibility*](#accessibility)). Please make sure there is a consensus among your users for doing so. If not, see below how to install Tangerine UI as an optional theme for your users.
 
 ### Install Tangerine UI as an optional theme on your instance [Recommended]:
 Follow these instructions if you wish to add Tangerine UI as an available theme for your users on your instance.  
@@ -173,22 +173,17 @@ Your users should now be able to select Tangerine UI as a theme in their setting
 ![Glitch-soc settings. Flavours → Vanilla Mastodon → Skin](https://github.com/nileane/TangerineUI-for-Mastodon/assets/914451/abd931ab-685a-4d55-aa24-cb6356a19a7c)
 
 
-
 ## Installation for regular users
-Even if you are not the admin of your instance, you can still use Tangerine UI with a browser extension.
+Even if you are not an admin on your instance, you can still use Tangerine UI with a browser extension:
 
-### Using a UserStyle browser extension
-* Install any browser extension that allows you to inject CSS on a webpage, such as [Stylus](https://add0n.com/stylus.html), or [Live CSS Editor](https://github.com/webextensions/live-css-editor)
-* Copy & paste the contents of [`TangerineUI.css`](https://github.com/nileane/TangerineUI-for-Mastodon/blob/main/TangerineUI.css) to the extension's editor
+1. Install any browser extension that allows you to inject CSS on a webpage, such as [Stylus](https://add0n.com/stylus.html), or [Live CSS Editor](https://github.com/webextensions/live-css-editor)
+2. Copy & paste the contents of [`TangerineUI.css`](https://github.com/nileane/TangerineUI-for-Mastodon/blob/main/TangerineUI.css) to the extension's editor
    * 🪻 For the purple variant, copy the contents of [`TangerineUI-purple.css`](https://github.com/nileane/TangerineUI-for-Mastodon/blob/main/TangerineUI-purple.css) instead.
-   * 🍏 For the green variant, copy the contents of [`TangerineUI-green.css`](https://github.com/TheLimifiedLime/TangerineUI-for-Mastodon/blob/main/TangerineUI-green.css) instead.
-* ⚠️ If you are a user on a Glitch-soc instance, you must switch to the vanilla flavour for Tangerine UI to work properly:
-   * In your settings, navigate to Flavours → Vanilla Mastodon → select the 'Default' skin.
+      * 🍏 For the green variant, copy the contents of [`TangerineUI-green.css`](https://github.com/TheLimifiedLime/TangerineUI-for-Mastodon/blob/main/TangerineUI-green.css) instead.
+
+⚠️ If you are a user on a Glitch-soc instance, you must switch to the Vanilla Mastodon flavour for Tangerine UI to work properly: in your instance settings, navigate to Flavours → Vanilla Mastodon → select the 'Default' skin.
  
- ### Using a UserScript browser extension
- If you wish to use a UserScript browser extension, [@Write](https://github.com/Write) has written a ready-to-use UserScript to load Tangerine UI on any Mastodon instance.
- 
- * Check out [the TangerineUI-Userscript repository](https://github.com/Write/TangerineUI-Userscript) for instructions.
+💡 Alternatively, if you wish to use a JavaScript browser extension, [@Write](https://github.com/Write) has written a ready-to-use UserScript to load Tangerine UI on any Mastodon instance. Check out [the TangerineUI-Userscript repository](https://github.com/Write/TangerineUI-Userscript) for instructions.
 
 ## Things to know
 * **Tangerine UI currently only supports Mastodon's single column layout**. The advanced web interface (multiple columns) will not be affected.
@@ -196,7 +191,7 @@ Even if you are not the admin of your instance, you can still use Tangerine UI w
 * Check your Mastodon instance version before using. The latest Mastodon release checked to be compatible is indicated in the CSS file header.
 
 ## Accessibility
-* Please consider that some of your users may depend on Mastodon's High Contrast theme before [setting Tangerine UI as the only theme](#install-tangerine-ui-as-the-only-theme-on-your-instance) on your instance. For this reason, unless you're running a single-user instance, I recommend [installing Tangerine UI as an optional/revertable theme](#install-tangerine-ui-as-an-optional-theme-on-your-instance-recommended) instead.
+Please consider that some of your users may depend on Mastodon's High Contrast theme before [setting Tangerine UI as the only theme](#install-tangerine-ui-as-the-only-theme-on-your-instance) on your instance. For this reason, unless you're running a single-user instance, I recommend [installing Tangerine UI as an optional/revertable theme](#install-tangerine-ui-as-an-optional-theme-on-your-instance-recommended) instead.
 
 ## Credits
 Huge thanks to [Roni Laukkarinen](https://mementomori.social/@rolle) whose work on [Mastodon Bird UI](https://github.com/ronilaukkarinen/mastodon-bird-ui) I adapted for some parts of the redesign.
