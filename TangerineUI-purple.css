@@ -928,6 +928,7 @@ body.layout-single-column  {
 }
 .layout-single-column .status--in-thread .attachment-list,
 .layout-single-column .status--in-thread .audio-player,
+.layout-single-column .status--in-thread .hashtag-bar,
 .layout-single-column .status--in-thread .media-gallery,
 .layout-single-column .status--in-thread .picture-in-picture-placeholder,
 .layout-single-column .status--in-thread .status-card,
@@ -1074,11 +1075,14 @@ body.layout-single-column  {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+.layout-single-column .detailed-status__link {
+    display: inline-block;
+}
 
 /* Hashtag bar */
 .layout-single-column .hashtag-bar a {
     color: var(--color-accent);
-    background-color: var(--color-accent-bg);
+    background-color: var(--color-accent-lines);
     border-radius: 8px;
     transition: all .3s;
 }
@@ -1090,6 +1094,12 @@ body.layout-single-column  {
 .layout-single-column .status__action-bar {
     justify-content: left;
     margin-top: 8px;
+}
+.layout-single-column .status__action-bar button,
+.layout-single-column .status__action-bar .status__action-bar__dropdown,
+.layout-single-column .detailed-status__action-bar button,
+.layout-single-column .detailed-status__action-bar .status__action-bar__dropdown {
+    transition: all .3s;
 }
 .layout-single-column .status__action-bar .status__action-bar__dropdown {
     position: absolute;
@@ -1417,7 +1427,13 @@ body.layout-single-column  {
 .layout-single-column .timeline-hint a {
     color: var(--color-accent);
 }
-
+.layout-single-column article + .timeline-hint:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom: 1px solid var(--color-lines);
+    border-left: 1px solid var(--color-lines);
+    border-right: 1px solid var(--color-lines);
+}
 
 
 /* 📤 DMs */
@@ -2214,6 +2230,9 @@ body.layout-single-column  {
 .layout-single-column .account__header__badges .account-role span {
     color: var(--color-content-fg);
 }
+.layout-single-column .account-role svg {
+    opacity: 1;
+}
 .layout-single-column .account__header__extra__links a,
 .layout-single-column .account__header__bio .account__header__content,
 .layout-single-column .account__header__bio .account__header__fields dd {
@@ -2345,7 +2364,7 @@ body.layout-single-column  {
 }
 .layout-single-column .trends__item__sparkline path:first-child {
     fill: var(--color-accent) !important;
-    fill-opacity: 20% !important;
+    fill-opacity: 0.2 !important;
 }
 .layout-single-column .explore__links {
     background-color: var(--color-content-bg);
@@ -3182,10 +3201,29 @@ body.layout-single-column  {
 .layout-single-column .interaction-modal .button.button-tertiary:hover {
     background-color: var(--color-content-secondary-separator);
 }
-.layout-single-column .copypaste input {
+.layout-single-column .copypaste input,
+.layout-single-column .interaction-modal__login__input {
     border-color: var(--color-accent);
-    background-color: var(--color-content-bg);
+    background-color: var(--color-accent-lines);
     color: var(--color-content-fg);
+    border-radius: 8px;
+}
+.layout-single-column .interaction-modal__login.expanded .interaction-modal__login__input {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.layout-single-column .interaction-modal__login__input input::placeholder {
+    color: var(--color-accent);
+}
+.layout-single-column .interaction-modal__login.focused .interaction-modal__login__input {
+    background-color: var(--color-content-bg);
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 2px var(--color-accent);
+}
+.layout-single-column .interaction-modal__login .search__popout {
+    border-color: var(--color-lines);
 }
 .layout-single-column .interaction-modal .copypaste button {
     padding: 8px 18px;
