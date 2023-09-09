@@ -41,13 +41,10 @@ Tangerine UI features a bubblier look, a more compact timeline, round avatars, a
   A fork specific variant with a green palette ([Screenshots may be outdated](https://github.com/TheLimifiedLime/TangerineUI-for-Mastodon/issues/7))
 
 <img src="./fork-screenshots/desktop-light.png" alt="the explore page on Mastodon featuring Tangerine UI's green variant in light mode on a desktop client"/>
-
 <img src="./fork-screenshots/desktop-dark.png" alt="the explore page on Mastodon featuring Tangerine UI's green variant in dark mode on a desktop client">
-
-<p float="left">
-<img src="./fork-screenshots/phone-light.png" alt="the explore page on Mastodon featuring Tangerine UI's green variant in light mode on a mobile client" height="400" />
-
-<img src="./fork-screenshots/phone-dark.png" alt="the explore page on Mastodon featuring Tangerine UI's green variant in dark mode on a mobile client" height="400" />
+<p>
+ <img src="./fork-screenshots/phone-light.png" alt="the explore page on Mastodon featuring Tangerine UI's green variant in light mode on a mobile client" height="500" />
+ <img src="./fork-screenshots/phone-dark.png" alt="the explore page on Mastodon featuring Tangerine UI's green variant in dark mode on a mobile client" height="500" />
 </p>
 
 ## List of instances that use Tangerine UI
