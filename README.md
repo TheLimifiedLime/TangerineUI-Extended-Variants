@@ -15,6 +15,7 @@ Tangerine UI features a bubblier look, a more compact timeline, round avatars, a
 ## Summary
 
 - [**Variants**](#variants)
+- [**Fork Changes**](#fork-changes)
 - [**List of instances that use Tangerine UI**](#list-of-instances-that-use-tangerine-ui)
 - [**Installation**](#installation-for-mastodon-admins)
   - [Install on a **Mastodon** instance](#installation-for-mastodon-admins)
@@ -24,6 +25,13 @@ Tangerine UI features a bubblier look, a more compact timeline, round avatars, a
 - [**Accessibility**](#accessibility)
 - [**Credits**](#credits)
 - [**Support me**](#support-me-3)
+
+## Fork Changes
+- **Green variant**  
+  A fork specific variant with a green palette
+
+
+**Note: If you find an issue with one of these additional variants, please report it here and NOT upstream.**
 
 ## Variants
 
