@@ -46,11 +46,14 @@ Tangerine UI features a bubblier look, a more compact timeline, round avatars, a
 ![Tangerine UI's purple variant, both in dark and light modes.](https://github.com/nileane/TangerineUI-for-Mastodon/assets/914451/c01c7a54-d2db-4fe5-a0f6-dc6e77cfe128)
 
 - **Green 🍏**
-  A fork specific variant with a green palette ([Screenshots may be outdated](https://github.com/TheLimifiedLime/TangerineUI-for-Mastodon-Extended-Themes/issues/7))
+  A fork specific variant with a green palette ([Screenshots may be outdated](https://github.com/TheLimifiedLime/TangerineUI-for-Mastodon/issues/7))
 
-![a profile page on Mastodon featuring Tangerine UI's green variant in light mode](https://raw.githubusercontent.com/TheLimifiedLime/TangerineUI-for-Mastodoon-Extended-Themes/d974f3eb116a0186ed720b51c0076bea72095545/assets/profile-light.png)
-![a profile page on Mastodon featuring Tangerine UI's green variant in dark mode](https://raw.githubusercontent.com/TheLimifiedLime/TangerineUI-for-Mastodon-Extended-Themes/02018db9f79c394a6ccf299fb81fc9026992b62f/assets/profile-dark.png)
-![TangerineUI Mobile in green](https://raw.githubusercontent.com/TheLimifiedLime/TangerineUI-for-Mastodon-Extended-Themes/02018db9f79c394a6ccf299fb81fc9026992b62f/assets/mobile.png)
+<img src="./fork-screenshots/desktop-light.png" alt="the explore page on Mastodon featuring Tangerine UI's green variant in light mode on a desktop client"/>
+<img src="./fork-screenshots/desktop-dark.png" alt="the explore page on Mastodon featuring Tangerine UI's green variant in dark mode on a desktop client">
+<p>
+ <img src="./fork-screenshots/phone-light.png" alt="the explore page on Mastodon featuring Tangerine UI's green variant in light mode on a mobile client" height="500" />
+ <img src="./fork-screenshots/phone-dark.png" alt="the explore page on Mastodon featuring Tangerine UI's green variant in dark mode on a mobile client" height="500" />
+</p>
 
 ## List of instances that use Tangerine UI
 
