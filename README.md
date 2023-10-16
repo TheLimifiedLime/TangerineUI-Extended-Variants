@@ -64,6 +64,10 @@ If you're an admin and have installed Tangerine UI on your instance, **feel free
 | -------------------------------------------------------- | -------------- | ------------------- | ----------------------- |
 | [piaille.fr](https://piaille.fr)                         | 10K+           | an optional theme   | No                      |
 | [norden.social](https://norden.social)                   | 5K+            | an optional theme   | No                      |
+| [vmst.io](https://vmst.io)                               | 2K+            | an optional theme   | No                      |
+| [eldritch.cafe](https://eldritch.cafe)                   | 1.5K+          | an optional theme   | No                      |
+| [octodon.social](https://octodon.social)                 | 1K+            | an optional theme   | No                      |
+| [social.lol](https://social.lol)                         | 750+           | an optional theme   | No                      |
 | [shelter.moe](https://shelter.moe)                       | 350+           | an optional theme   | No                      |
 | [pipou.academy](https://pipou.academy)                   | 100+           | an optional theme   | No                      |
 | [indiepocalypse.social](https://indiepocalypse.social)   | 100+           | an optional theme   | No                      |
@@ -75,6 +79,7 @@ If you're an admin and have installed Tangerine UI on your instance, **feel free
 | [social.nah.re](https://social.nah.re)                   | 5+             | an optional theme   | No                      |
 | [esoteric.party](https://esoteric.party)                 | 5+             | the only theme      | Yes (Tangerine variant) |
 | [asso.lgbt](https://asso.lgbt)                           | 5+             | the only theme      | Yes (Purple variant)    |
+| [Buddyverse.xyz](https://buddyverse.xyz)                 | 5+             | an optional theme   | No                      |
 | [isfeeling.social](https://isfeeling.social)             | 1+             | the only theme      | Yes (Purple variant)    |
 | [ucn.social](https://ucn.social)                         | 1+             | an optional theme   | Yes (Tangerine variant) |
 | [fedi.cyberwitches.club](https://fedi.cyberwitches.club) | 1+             | the only theme      | Yes (Purple variant)    |
