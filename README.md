@@ -6,6 +6,8 @@
  </picture>
 </h1>
 
+## NOTE: This repo is archived & unmaintained and the variant may eventually break.
+
 ## A Tangerine redesign for Mastodon's Web UI.
 
 Tangerine UI features a bubblier look, a more compact timeline, round avatars, and a soft color palette that automatically switches between light and dark modes.
